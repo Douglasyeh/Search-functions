@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-image: url("/example02/02-陣列與物件-複雜資料進階篇/images/bg.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    font-family: "Microsoft JhengHei","Heiti TC","sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrap{
+    width: 500px;
+}
+
+.wrap > input.search{
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.wrap > p{
+    color: #000;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.wrap > p > a{
+    color: #000;
+    font-weight: bold;
+}
+
+.search_List{
+    width: 100%;
+}
+
+.search_List > .item{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 30px 25px 30px;
+    margin-bottom: 10px;
+}
+
+.search_List > .item > a{
+    display: block;
+}
+
+.search_List > .item > a.title{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search_List > .item > a.link{
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.search_List > .item > a:hover{
+    color: blue;
+}
+
+.search_List > .item > p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 16px;
+}
